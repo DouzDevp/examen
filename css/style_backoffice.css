@@ -1,0 +1,177 @@
+/* -------------------------------------------------------------------------------- CSS global --------------------------------------------------------------------------------*/
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgba(244, 241, 222, 0.5);
+}
+
+.navbar, h1, h2, h3{
+    font-family: 'Baloo 2', cursive;
+}
+
+
+/* -------------------------------------------------------------------------------- CSS backoffice --------------------------------------------------------------------------------*/
+
+/* CSS backoffice - header */
+
+.logo-admin {
+    float: left;
+}
+
+.navbar-back, .admin {
+    background-color: #222 !important;
+    color: white !important;
+}
+
+.active>.nav-link, .active>.nav-link {
+    color: #dc3545 !important;
+    text-decoration: underline;
+}
+
+.nav-link {
+    color: white !important;
+    font-size: 1.2em;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+.dropdown-menu {
+    background-color: white;
+}
+
+
+.dropdown-item {
+    color: white !important;
+}
+
+@media screen and (max-width: 1700px){
+      #destroy_session {
+        margin-left: -5px !important;
+        margin-right: +5px !important;
+    
+    }
+}
+
+
+@media screen and (max-width: 1110px){
+    h3 {
+        font-size: 1.2em;
+    }
+
+    .nav-link {
+        font-size: 1.1em;
+    }
+}
+
+@media screen and (max-width: 768px){
+    /* #destroy_session {
+       display: flex;
+       justify-content: space-between;
+
+    } */
+}
+
+@media screen and (max-width: 1000px){
+    .nav-link {
+        font-size : 1em;
+    }
+    
+    .logo-admin {
+        width: 60% !important;
+        height: auto;
+        font-size: large;
+    }
+
+    h1 {
+        font-size: x-large;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .logo-admin {
+        display : none;       
+    }
+
+    h1 {
+        margin-top: 10px;
+    } 
+}
+
+.navbar-light .navbar-toggler {
+color: grey !important;
+background-color: white;
+}
+
+
+/* CSS backoffice - Home */
+
+legend {
+    border : solid 1px black;
+    border-radius: 5px;
+    padding: 3px 6px;
+}
+
+fieldset {
+    border : solid 1px black;
+    border-radius: 5px;
+    padding : 10px;
+}
+
+.form-example {
+    margin : 10px;
+}
+
+@media screen and (max-width: 1000px){
+
+    h3 {
+        font-size: 100%;
+    }
+
+    h6 {
+        font-size: 90%;
+    }
+
+    legend {
+        font-size: 100%;
+    }
+
+}
+
+.button-connexion {
+background-color: #222;
+    border: 0;
+    border-radius: 2px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-size: 0.875rem;
+    font-weight: 800;
+    line-height: 1;
+    padding: 1em 2em;
+}
+.button-connexion:hover {
+background-color: #909090;
+}
+
+/* CSS backoffice - modération */
+
+
+
+/* CSS backoffice - admin page */
+
+
+/* CSS backoffice - newsletter*/
+table {
+    border-collapse: separate;
+    border-spacing: 10px 10px;
+}
+
+.contact {
+    border: solid black 1px ;
+    padding: 10px;
+        border-radius: 1em;
+
+}

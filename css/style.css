@@ -1,0 +1,305 @@
+/* -------------------------------------------------------------------------------- CSS global --------------------------------------------------------------------------------*/
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgba(244, 241, 222, 0.5);
+}
+
+.navbar, h1, h2, h3{
+    font-family: 'Baloo 2', cursive;
+}
+
+.submit-comment {
+    background-color: rgba(224, 122, 95);
+    color: rgb(244, 241, 222);
+    border: 1px solid rgba(224, 122, 95);
+    border-radius: 3px;
+}
+
+.submit-comment:hover {
+    background-color: rgb(244, 241, 222);
+    color: rgba(224, 122, 95);
+}
+
+
+
+/* -------------------------------------------------------------------------------- CSS frontoffice --------------------------------------------------------------------------------*/
+/* CSS frontoffice - header */
+
+.navbar-front {
+    font-size: x-large;
+    background-color: rgb(242, 204, 143) !important;
+}
+
+
+.active>.nav-link, .active>.nav-link, h1, h2, h3 {
+    color: rgb(0, 31, 96) !important;
+}
+
+.nav-link {
+    color: rgb(0, 31, 96, 0.5) !important;
+}
+.nav-link:hover {
+    color: rgb(0, 31, 96) !important;
+    text-decoration: underline;
+}
+
+.dropdown-menu {
+    background-color: rgb(244, 241, 222);
+}
+
+
+.dropdown-item{
+    color: rgb(0, 31, 96) !important;
+}
+
+@media screen and (max-width: 1500px){
+   .logo {
+       width: 300px;
+       height: auto;
+   }
+}
+
+@media screen and (max-width: 1280px){
+    .logo {
+        width: 200px;
+        height: auto;
+    }
+    .navbar-front {
+        font-size: 1.3em;
+    }
+}
+
+@media screen and (max-width: 1110px){
+    .logo {
+        width: 150px;
+        height: auto;
+    }
+    .navbar-front {
+        font-size: 1.2em;
+    }
+
+    h3 {
+        font-size: 1.2em;
+    }
+}
+
+
+@media screen and (max-width: 1000px){
+    .logo {
+        width: 100px;
+        height: auto;
+    }
+    .navbar-front {
+        font-size: 1.1em;
+    }
+}
+
+@media screen and (max-width: 770px){
+    .logo {
+        width: 120px;
+        height: auto;
+        margin-right: +2em;
+    }
+}
+
+@media screen and (max-width: 768px){
+     .navbar-front {
+         font-size: 1em;
+     }
+ }
+
+
+/* CSS frontoffice - footer */
+
+/* css to sicky footer */
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+
+.wrapper {
+    min-height: 80%;
+    margin-bottom: -200px;
+}
+
+.footer_position, .push {
+    height: 200px;
+}
+/* end */
+
+.footer {
+    border : solid 1px black;
+    padding: 3px 6px;
+    background-color: #222;
+    color : #909090
+}
+
+.center {
+    text-align: center;
+}
+
+.footer_position {
+    margin: 0;
+}
+
+@media screen and (max-width: 1000px){
+    .footer_position {
+        margin: 0;
+    }
+
+    p, li {
+        font-size: 80%;
+    }
+
+    .size_small {
+        font-size: 80%;
+    }
+
+    .margin_small{
+        margin: 3px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .footer_position {
+        padding: 0;
+        margin: 0;
+    }
+}
+
+/* CSS frontoffice - presentation */
+.carousel-dimension {
+    width: 320px !important;
+    height: auto !important;
+    max-height: 230px;
+}
+
+
+.carousel-inner {
+    border-radius: 3px;
+}
+
+/* CSS frontoffice - all_articles */
+
+.icon_beer {
+    width: 1.1em;
+    height: auto;
+}
+
+h3>p {
+    margin-left: +15px;
+}
+
+.card-img-top {
+    width: 100px ;
+    /* height: 70px; */
+}
+
+@media screen and (max-width: 800px){
+    .card-img-top {
+        width: 50%;
+    }
+}
+
+.thumbnail_article {
+    border-radius: 3px;
+    border : solid 1px rgb(224, 122, 95);
+}
+
+.card {
+    background-color:  rgba(129, 178, 154, 0.5);
+}
+
+
+#loader {
+    display: none;
+    width: 2em;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+/* CSS frontoffice - single_articles */
+
+.JSrslink:link {
+    text-decoration: none;
+}
+
+.clipboard:hover, #copy_contacts {
+    cursor : pointer;
+}
+
+/* #img_article img {
+    max-width: 500px !important;
+    width: screen;
+    height: auto;
+} */
+
+.more_comment {
+    margin-top: none;
+    border: 1px solid rgb(244, 241, 222);
+    border-radius: 3px;
+    background-color: rgba(224, 122, 95);;
+    color: rgb(244, 241, 222);
+}
+.more_comment:hover {
+    background-color: rgb(244, 241, 222);
+    color: rgb(224, 122, 95);
+    border: 1px solid rgb(224, 122, 95);
+}
+
+#comment {
+    border-color: rgb(224, 122, 95) !important;
+    background-color: rgb(129, 178, 154);
+    color: white !important;
+    border-radius: 3px;
+}
+
+
+fieldset {
+    border : solid 1px rgb(224, 122, 95);
+    border-radius: 5px;
+    padding : 10px;
+}
+
+
+#legend {
+    border : solid 1px rgb(224, 122, 95);
+    background-color: rgb(129, 178, 154);
+    color: white;
+    border-radius: 5px;
+    padding: 3px 6px;
+}
+
+
+@media screen and (max-width: 768px){
+    #legend{
+        font-size: small !important;
+    }
+}
+
+
+.comment_added{
+    background-color: rgba(129, 178, 154);
+    color: white;
+    border-radius: 3px;
+}
+
+
+
+/* CSS frontoffice - pot */
+
+
+/* CSS frontoffice - contact */
+
+#contact, legend {
+    border-color: rgba(224, 122, 95);
+    background-color : rgb(129, 178, 154);
+    color: white;
+}
+
+
+
+
